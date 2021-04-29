@@ -1,0 +1,35 @@
+.hidden {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.footer {
+    background: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.footer-wrapper {
+    background-color: #303d4c;
+    padding: 0.5em;
+}
+
+
+.footer-wrapper li {
+    margin: 0 2em;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.footer-wrapper a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    
+}
+

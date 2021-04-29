@@ -1,0 +1,64 @@
+.top-header{
+    text-align: center;
+}
+.top-header-logo{
+    margin: .5em;
+}
+
+.top-nav{
+    background: #612674;
+    text-align: center;
+}
+.top-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-nav a{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;   /* elemento a em inline, troquei pra block pro padding ser aplicado nele */
+}
+
+.top-nav a:hover{
+    background: #7c3792;
+}
+
+
+@media screen and (min-width: 48.75em) {
+    
+    .top-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; /* <<<<< ta alinhando meus itens na vertical e colocando no centro */
+        align-items: baseline;
+    }
+
+    .top-nav {
+        background: transparent;
+    }
+        
+    
+    .top-nav ul {
+        display: flex;
+    }
+
+    .top-nav a {
+        color: #612674;;
+        font-size: 1.3em;
+        margin-right: 1.5em;
+    
+    }
+
+    .top-nav a:hover {
+        background: #c4a3ce;
+        border-radius: 45px;
+        
+        
+    
+    }
+
+}
