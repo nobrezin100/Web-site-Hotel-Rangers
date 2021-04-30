@@ -2,6 +2,7 @@
     background: #f6f6f6;
     padding: 1em;
     text-align: center;
+    
 }
 
 .top.section-title {
@@ -53,14 +54,18 @@
 
 }
     
-.button-title {
-    
+.main-button-title {
+   
+    color: #9557aa;
     font-size: 1.3em;
     text-transform: uppercase;
     letter-spacing: 0.3em;  
 }
 
 /*------------------ section media-query -----------------*/
+
+
+
 
 @media screen and (min-width: 48.75em) {
     
@@ -75,5 +80,38 @@
     .top-section-subtitle {
         color: white;
     }
+
+
+    .col-1_4 {
+        width: 44%;  
+        margin: 3%; /* esses 3% vao se somar pra da 6% mais com os 44%, vão da 50% que cada article vai ter */ 
+        float: left;
+    }
+
+    
+
 }
+
+@media screen and (max-width: 50em) {
+    .clearfix:after{
+        content: ' ';
+        display: block;
+        clear: both;
+
+    }
+    
+    .main-content-article .button{
+        float: right;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
 
