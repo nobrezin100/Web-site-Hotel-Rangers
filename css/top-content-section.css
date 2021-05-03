@@ -46,7 +46,7 @@
 /*------------------- button content --------------------*/
 
 .button-content {
-    padding: 2em;
+    padding-left: 3.5em;
 }
 
 .button-content p {
@@ -70,7 +70,12 @@
 @media screen and (min-width: 48.75em) {
     
     .top-content-section {
+        background-image: url(/images/bg_topo_1198x670.jpg);
         background-color: #521a66;
+        background-position: top;
+        padding: 5em;
+    
+        background-size: cover;
     }
 
     .top-section-title {
@@ -100,14 +105,52 @@
 
     }
     
-    .main-content-article .button{
+    .clearfix .button{
         float: right;
     }
 }    
 
+@media screen and (min-width: 68em){
+    .top-content-section {
+        background-image: url(/images/bg_topo_1600x1374.jpg);
+        background-position: center top;
+        padding: 15em;
+    }
+    .middle-content {
+        display: flex;
+        
+    }
+    
+    .top-section-title {
+        font-size: 2em;
+    } 
+    
+    .top-section-subtitle {
+        font-size: 1.3em;
 
+    }
+    .main-content-article-01 {
+        display: flex;
+        padding-left: 15em;
+        padding-top: 3em;
+    }
 
+    .main-content-article-01 p{
+        width: 60%;
+    }
 
+    .main-content-article-02 {
+        display: flex;
+        padding-left: 15em;
+        padding-top: 3em;
+        margin-bottom: 5em;
+        
+    }
+
+    .main-content-article-02 p {
+        width: 60%;
+    }
+}
 
 
 
